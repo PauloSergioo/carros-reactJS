@@ -1,5 +1,8 @@
 .card {
-    border: 1px solid red;
+    width: 306px;
+    height: 347px;
+    margin: 0px 10px;
+    border-radius: 10px;
     background-color: var(--color-card-background);
 }
 
@@ -7,3 +10,41 @@
     width: 220.72px;
     height: 165;
 }
+
+.card h2 {
+    font-size: 18px;
+    color: var(--color-title-card);
+}
+
+.card p {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px 20px 40px 20px;
+    color: var(--color-text-card);
+}
+
+.title-card {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 258px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: var(--color-button-blue);
+    color: var(--color-bg-primary);
+}
+
+.aligned-card {
+    display: flex;
+    justify-content: center;
+}
+

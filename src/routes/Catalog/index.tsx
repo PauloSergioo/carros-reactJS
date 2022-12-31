@@ -11,6 +11,12 @@ export default function Catalog() {
           <SearchBar />
           <div>
             <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
           </div>
         </section>
       </main>

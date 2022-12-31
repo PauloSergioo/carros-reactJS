@@ -31,10 +31,12 @@ body {
   background-color: var(--color-bg-primary);
 }
 
-.mb20 {
+.ct-mb20 {
   margin-bottom: 20px;
 }
 
-.container {
+.ct-container {
+  width: 100%;
   max-width: 980px;
+  margin: 0 auto;
 }

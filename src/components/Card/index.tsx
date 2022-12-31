@@ -3,8 +3,8 @@ import carImg from "../../assets/car.png";
 
 export default function Card() {
   return (
-    <div className="card mb20">
-      <div className="title-card">
+    <div className="ct-card ct-mb20">
+      <div className="ct-title-card">
         <img src={carImg} alt="Car" />
         <h2>Audi Supra TT</h2>
       </div>
@@ -12,8 +12,8 @@ export default function Card() {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
         nisi
       </p>
-      <div className="aligned-card">
-        <div className="buy-button">Comprar</div>
+      <div className="ct-aligned-card">
+        <div className="ct-buy-button">Comprar</div>
       </div>
     </div>
   );

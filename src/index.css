@@ -6,7 +6,6 @@
   --color-header-background: #F78B00; 
   --color-searchbar: #A7A7A7;
   --color-card-background: #EDEDED;
-  --color-title-card: #000000;
   --color-text-card: #585858;
 
   --dsc-color-font-placeholder: rgb(137, 137, 137);
@@ -29,10 +28,6 @@ a:hover {
 html,
 body {
   background-color: var(--color-bg-primary);
-}
-
-.ct-mb20 {
-  margin-bottom: 20px;
 }
 
 .ct-container {

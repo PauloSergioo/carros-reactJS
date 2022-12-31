@@ -1,0 +1,9 @@
+.card {
+    border: 1px solid red;
+    background-color: var(--color-card-background);
+}
+
+.card img {
+    width: 220.72px;
+    height: 165;
+}
